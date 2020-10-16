@@ -1,0 +1,74 @@
+/*Settings*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family:'Courier New', Courier, monospace ;
+    line-height: 1.7em; 
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+h1,h2,h3{
+    padding-bottom: 20px;
+}
+/* this serves as the container menu */
+.container{
+    margin:auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+/* design for menu */
+#navbar{
+    background:lightpink;
+    color: #000;
+    overflow: auto
+}
+#navbar h1{
+    float:left;
+    padding-top: 20px;
+}
+#navbar a{
+    color:floralwhite;
+}
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+#navbar ul li{
+    float: left;
+}
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+}
+/* design for my name and motto */
+.my-name{
+    background: url("../images/pic.jpeg")no-repeat center center/cover;
+    height:800px;
+}
+.content{
+    color: palevioletred;
+    text-align: center;
+    padding: 230px;
+      
+}
+a.button{
+    display:inline-block;
+    border:3px palevioletred solid;
+    background-color: lightpink;}
+
+    /* educ. back */
+.edu-dashed{
+    border-top: 3px dashed palevioletred;
+    margin-top: 20px;
+}
+.edu h1{
+    padding-top: 30px;
+    text-align: center;
+    
+}
